@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color:mediumaquamarine;  
+    background-color:rgb(0, 16, 70);  
     
     color: hsl(240, 1%, 38%);
-    font: Verdana, Arial, Sans-Serif;
+    font:verdana, Arial, Sans-Serif;
 }
 
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: rgb(164, 117, 252);
+    color: rgb(228, 186, 0);
     text-align: center;
 }
 
@@ -36,7 +36,12 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.zweefLinks1 {
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 200px;
+}
+img.zweefLinks2 {
     float: left;
     margin-right: 15px;
 }
@@ -53,7 +58,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+.block {
+    float:left;
+}
 
 /* navigatiebalk */
 nav ul {
