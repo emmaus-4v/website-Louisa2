@@ -59,7 +59,7 @@ a:hover {
     text-decoration: underline;
 }
 .block {
-    float:left;
+float:left;
 }
 
 /* navigatiebalk */
@@ -67,7 +67,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #a30b06;
+    background-color:rgb(228, 186, 0);
     overflow: hidden;
 }
 
@@ -84,11 +84,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #ffb8b8;
+    background-color: rgb(247, 212, 60);
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(1, 98, 136);
 }
 
 
