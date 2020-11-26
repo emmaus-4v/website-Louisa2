@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     background-color:rgb(0, 16, 70);  
     
-    color: hsl(240, 1%, 38%);
+    color: hsl(240, 4%, 86%);
     font:verdana, Arial, Sans-Serif;
 }
 
@@ -31,6 +31,7 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    margin-bottom:5px;
 }
 
 
@@ -42,8 +43,8 @@ img.zweefLinks1 {
     width: 200px;
 }
 img.zweefLinks2 {
-    float: left;
-    margin-right: 15px;
+    float:right;
+    margin-left: 15px;
 }
 
 .smalltext {
@@ -59,7 +60,22 @@ a:hover {
     text-decoration: underline;
 }
 .block {
-float:left;
+    float:left;
+    border-top: dotted;
+    padding:5px;
+    margin-top:5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-color:rgb(228, 186, 0)
+}
+
+.box {
+    float:left;    
+}
+
+.textblock {
+    float:center;
+
 }
 
 /* navigatiebalk */
