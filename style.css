@@ -38,13 +38,17 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks1 {
-    margin-left: 250px;
-    margin-right: 250px;
-    width: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 300px;
 }
 img.zweefLinks2 {
     float:right;
     margin-left: 15px;
+}
+.disneykasteel{
+    height:225px;
+    float:center;
 }
 
 .smalltext {
