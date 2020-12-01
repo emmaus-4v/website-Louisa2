@@ -47,10 +47,21 @@ img.zweefLinks2 {
     margin-left: 15px;
 }
 .disneykasteel{
-    height:225px;
-    float:center;
-}
+    width:150px;
+    margin-left: 275px;
+    margin-right: 275px;
 
+}
+.logo {
+    width: 200px;
+    margin-left:250px;
+    margin-right: 250px;
+}
+.live-action {
+    margin-left:200px;
+    margin-right:200px;
+    width:300px;
+}
 .smalltext {
     font-size: 0.7em;
 }
@@ -86,7 +97,7 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    padding: 0px;
     background-color:rgb(228, 186, 0);
     overflow: hidden;
 }
