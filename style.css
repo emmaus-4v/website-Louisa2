@@ -37,10 +37,13 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks1 {
+.openingsscene{
     margin-left: 200px;
     margin-right: 200px;
+    padding-bottom:10px;
     width: 300px;
+    border-bottom:dotted;
+    border-color:rgb(228, 186, 0)
 }
 img.zweefLinks2 {
     float:right;
@@ -56,6 +59,7 @@ img.zweefLinks2 {
     width: 200px;
     margin-left:250px;
     margin-right: 250px;
+    margin-bottom:5px;
 }
 .live-action {
     margin-left:200px;
@@ -76,12 +80,10 @@ a:hover {
 }
 .block {
     float:left;
-    border-top: dotted;
     padding:5px;
     margin-top:5px;
     margin-right: 5px;
     margin-bottom: 5px;
-    border-color:rgb(228, 186, 0)
 }
 
 .box {
@@ -89,7 +91,8 @@ a:hover {
 }
 
 .textblock {
-    float:center;
+    clear:both;
+    float:right;
 
 }
 
