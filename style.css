@@ -19,6 +19,7 @@ main {
 
 article {
     text-align: justify;
+    clear: both;
 }
 
 
@@ -45,10 +46,10 @@ footer {
     border-bottom:dotted;
     border-color:rgb(228, 186, 0)
 }
-img.zweefLinks2 {
-    float:right;
-    margin-left: 15px;
+.border{
+    border-top:dotted;
 }
+
 .disneykasteel{
     width:150px;
     margin-left: 275px;
@@ -56,15 +57,15 @@ img.zweefLinks2 {
 
 }
 .logo {
-    width: 200px;
-    margin-left:250px;
-    margin-right: 250px;
-    margin-bottom:5px;
-}
-.live-action {
     margin-left:200px;
     margin-right:200px;
     width:300px;
+    margin-bottom:5px;
+}
+
+.snowwhite {
+    width:200px;
+    float:right;
 }
 .smalltext {
     font-size: 0.7em;
@@ -86,15 +87,6 @@ a:hover {
     margin-bottom: 5px;
 }
 
-.box {
-    float:left;    
-}
-
-.textblock {
-    clear:both;
-    float:right;
-
-}
 
 /* navigatiebalk */
 nav ul {
