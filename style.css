@@ -33,21 +33,17 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     margin-bottom:5px;
+    clear:both;
 }
 
 
 /* specifieke stijlen */
 
-.openingsscene{
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom:10px;
-    width: 300px;
-    border-bottom:dotted;
-    border-color:rgb(228, 186, 0)
-}
+
 .border{
     border-top:dotted;
+    border-color:rgb(288, 186, 0);
+    margin-bottom:10px;
 }
 
 .disneykasteel{
@@ -56,7 +52,7 @@ footer {
     margin-right: 275px;
 
 }
-.logo {
+.foto{
     margin-left:200px;
     margin-right:200px;
     width:300px;
@@ -65,7 +61,8 @@ footer {
 
 .snowwhite {
     width:200px;
-    float:right;
+    float:left;
+    margin: 5px;
 }
 .smalltext {
     font-size: 0.7em;
