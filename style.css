@@ -59,7 +59,8 @@ footer {
     float:right;
     width:200px;
     padding:10px;
-    margin-right:25%;
+    margin-right:50px;
+    position:relative;
 }
 
 .snowwhite {
@@ -111,3 +112,32 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(1, 98, 136);
 }
+
+/* animation */
+ @keyframes slide{
+     0% {
+         left:-1000px;
+     }
+     100% {
+         left:1000px;
+     }
+ }
+
+ .slide {
+     position: relative;
+     animation: slide 10s;
+ }
+
+ @keyframes border{
+     0% {
+         border-color:rgb(0, 16, 70);
+     }
+     100% {
+         border-color: rgb(228, 186, 0);
+     }
+
+ }
+
+ .border {
+     animation: border 10s infinite;
+ }
