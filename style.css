@@ -76,7 +76,7 @@ footer {
 }
 
 a {
-    color: rgb(1, 98, 136);
+    color: rgb(57, 62,143);
     text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0px;
-    background-color:rgb(228, 186, 0);
+    background-color:rgb(228, 168, 0);
     overflow: hidden;
 }
 
@@ -106,11 +106,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(247, 212, 60);
+    background-color: rgb(244, );
 }
 
 nav li a.active {
-    background-color: rgb(1, 98, 136);
+    background-color: rgb(78, 84, 199);
 }
 
 /* animation */
@@ -125,7 +125,7 @@ nav li a.active {
 
  .slide {
      position: relative;
-     animation: slide 10s;
+     animation: slide 8s;
  }
 
  @keyframes border{
