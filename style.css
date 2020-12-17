@@ -69,6 +69,7 @@ footer {
     margin: 5px;
 }
 
+
 /* specifieke stijlen */
 
 .smalltext {
@@ -76,7 +77,7 @@ footer {
 }
 
 a {
-    color: rgb(57, 62,143);
+    color: rgb(0, 35, 150);
     text-decoration: none;
 }
 
@@ -106,11 +107,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(244, );
+    background-color:rgb(255, 196, 35)
 }
 
 nav li a.active {
-    background-color: rgb(78, 84, 199);
+    background-color: rgb(0, 35, 150);
 }
 
 /* animation */
@@ -128,16 +129,17 @@ nav li a.active {
      animation: slide 8s;
  }
 
- @keyframes border{
+
+
+ @keyframes text{
      0% {
-         border-color:rgb(0, 16, 70);
+         opacity:0%;
      }
      100% {
-         border-color: rgb(228, 186, 0);
+         opacity:100%;
      }
-
  }
 
- .border {
-     animation: border 10s infinite;
+ .opacity {
+     animation:text 5s;
  }
